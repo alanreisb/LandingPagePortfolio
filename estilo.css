@@ -5,7 +5,22 @@ body{
     position: absolute;
     background-color: white;
     border-radius: 0 0 20px 20px;
+ }
+
+ ::-webkit-scrollbar {
+    
+    width: 20px;
+    background: white;
 }
+
+::-webkit-scrollbar-thumb {
+    
+    width: 12px;
+    background: #2B8EFC;
+    border-radius: 2px;
+}
+
+
 #Container-Principal{
     background-color: white;
     border-radius: 0 0 20px 20px;
