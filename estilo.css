@@ -30,7 +30,7 @@ body{
 .imagem-carousel{
     height: 90vh !important;
     object-fit: fill;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .texto-carousel{
@@ -38,7 +38,7 @@ body{
     left:5%;
     bottom:2%;
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 1.2em;
     opacity: 1 !important;
     color:#007bff;
@@ -46,11 +46,11 @@ body{
 
 .texto-carousel2{
     position: absolute;
-    right:5% !important;
-    top:15%;
+    left:5% !important;
+    top:25%;
     font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1.5em;
+    font-weight: 900;
+    line-height: 1.2em;
     opacity: 1 !important;
     color:#007bff;
   
@@ -92,10 +92,15 @@ footer{
     border-radius: 0 0 10px 10px;
 }
 
+.footer-text > p{
+    margin-bottom: 0!important;
+}
+
 .footer-text{
 font-size: 0.9rem;
 color: gray;
 font-weight: 500;
+line-height: 2;
 }
 .icones{
     list-style: none;
@@ -104,4 +109,13 @@ font-weight: 500;
     width: 30px;
     height: 30px;
     margin-right: 15px;
+}
+.copyright{
+    font-weight: 400;
+    color:gray;
+
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
 }
