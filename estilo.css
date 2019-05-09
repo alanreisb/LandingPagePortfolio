@@ -24,38 +24,41 @@ body{
 }
 
 #carousel-principal{
-    height: 500px !important;
+    height: 90vh!important;
+    width: 100%;
 }
 
 .imagem-carousel{
-    height: 90vh !important;
+    width: 100%;
+    height: 90vh!important;
     object-fit: fill;
     opacity: 1;
 }
 
 .texto-carousel{
     position: absolute;
-    left:5%;
-    bottom:2%;
     font-size: 2.5rem;
     font-weight: 900;
     line-height: 1.2em;
-    opacity: 1 !important;
     color:#007bff;
+    text-shadow: 2px 1px 5px  whitesmoke,
+    -2px -1px 5px  whitesmoke;
+}
+
+.texto-carousel1{
+    left:5%;
+    bottom:2%;
 }
 
 .texto-carousel2{
-    position: absolute;
-    left:5% !important;
+    right:5% !important;
     top:25%;
-    font-size: 2.5rem;
-    font-weight: 900;
-    line-height: 1.2em;
-    opacity: 1 !important;
-    color:#007bff;
-  
 }
 
+.texto-carousel3{
+    right:5% !important;
+    top:80%;
+ }
 .carousel-botao{
     top:90% !important;
     position: absolute;
